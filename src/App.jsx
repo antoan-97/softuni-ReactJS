@@ -1,22 +1,8 @@
 import './App.css'
 import FightersList from './components/FightersList';
+import Figters  from './assets/fighters'
 
 
-
-const fighters = [
-  {
-    title: 'Conor McGregor',
-    description: 'Striker',
-  },
-  {
-    title: 'Alex Pereira',
-    description: 'Kickboxer',
-  },
-  {
-    title: 'Khamzat Chimaev',
-    description: 'Wrestler',
-  },
-];
 
 function App() {
 
