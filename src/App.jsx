@@ -1,7 +1,10 @@
 import './App.css'
 import FightersList from './components/FightersList';
-import fighters  from './assets/fighters'
+import fighters  from './assets/fighters';
 import Timer from './components/Timer';
+
+
+
 
 
 
