@@ -8,7 +8,7 @@ function App() {
 
 
   return (
-    <div>
+    <div className='background'>
     <h1>UFC Fighters Training Camp</h1>
     <FightersList fighters={fighters}  headingText = 'Fighters List'/>
     </div>

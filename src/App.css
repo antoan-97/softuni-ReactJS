@@ -40,3 +40,18 @@
 .read-the-docs {
   color: #888;
 }
+
+.background {
+  background-image: url('/public/images/1440_20231201000036.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Full height */
+  width: 100%; /* Full width */
+  color: white; /* Optional: To ensure text is visible on the background */
+}
+
