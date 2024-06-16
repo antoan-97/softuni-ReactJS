@@ -8,6 +8,12 @@ export default function Counter(props) {
     setCount(count + 1)
   }
 
+  if(count > 10){
+    return(
+        <h3>No more spots</h3>
+    );
+  }
+
 
     return(
         <div>
