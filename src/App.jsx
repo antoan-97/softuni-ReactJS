@@ -1,7 +1,7 @@
 import FightersList from './components/FightersList';
 import fighters  from './assets/fighters';
 
-import styles from './App.module.css';
+import styles from './styles/App.module.css';
 
 
 
