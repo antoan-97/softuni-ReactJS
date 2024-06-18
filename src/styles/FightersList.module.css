@@ -1,0 +1,11 @@
+.fighterList {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.fighterItem {
+    margin-right: 20px; /* Adjust spacing between items as needed */
+}
