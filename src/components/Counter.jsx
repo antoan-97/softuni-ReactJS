@@ -17,7 +17,7 @@ export default function Counter(props) {
 
     return(
         <div>
-            <h3>Signed people</h3>
+            <h3>Signed people:</h3>
             <p>Signed: {count}</p>
             <button onClick={incrementClickHandler}>Sign up</button>
         </div>
