@@ -16,9 +16,9 @@ function App() {
   return (
     <div className={styles.background}>
      <Navbar />
-    <h1>UFC Fighters Training Camp</h1>
+    <h1 className={styles.heading}>UFC Fighters Training Camp</h1>
 
-    <FightersList fighters={fighters}  headingText = 'Fighters List'/>
+    <FightersList fighters={fighters}  headingText = 'Fighters List' headingClass={styles.heading}/>
     </div>
   )
 }

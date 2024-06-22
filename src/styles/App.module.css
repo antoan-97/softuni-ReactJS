@@ -7,4 +7,11 @@
     color: #fff; /* Optional: Set a text color for better visibility */
   }
 
+  .heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
   
