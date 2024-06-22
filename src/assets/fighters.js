@@ -4,6 +4,7 @@ export default [
       description: 'Striker',
       wins: '22',
       years: '35',
+      image: 'images/conor.jpg'
     },
     {
       title: 'Alex Pereira',
