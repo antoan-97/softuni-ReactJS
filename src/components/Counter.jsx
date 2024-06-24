@@ -1,3 +1,4 @@
+import styles from '../styles/Button.module.css';
 import { useState } from "react";
 
 export default function Counter(props) {
@@ -19,7 +20,7 @@ export default function Counter(props) {
         <div>
             <h3>Signed people:</h3>
             <p>Signed: {count}</p>
-            <button onClick={incrementClickHandler}>Sign up</button>
+            <button className={styles.button} onClick={incrementClickHandler}>Sign up</button>
         </div>
     );
 }
